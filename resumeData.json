@@ -1,0 +1,101 @@
+{
+  "main": {
+    "name": "姓名",
+    "occupation": "工作",
+    "description": "自我描述",
+    "image": "profilepic.png",
+    "bio": "生平经历.",
+    "email": "email@email.com",
+    "phone": "联系电话",
+    "address": {
+      "street": "街道",
+      "city": "城市",
+      "state": "省份",
+      "zip": "邮编"
+    },
+    "website": "http://www.google.com",
+    "social": [
+      {
+        "name": "facebook",
+        "url": "http://facebook.com/",
+        "className": "fa fa-facebook"
+      },
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/",
+        "className": "fa fa-linkedin"
+      },
+      {
+        "name": "instagram",
+        "url": "http://instagram.com/",
+        "className": "fa fa-instagram"
+      },
+      {
+        "name": "github",
+        "url": "http://github.com/",
+        "className": "fa fa-github"
+      }
+    ]
+  },
+  "resume": {
+    "skillmessage": "",
+    "education": [
+      {
+        "school": "University",
+        "degree": "专业",
+        "graduated": "毕业时间",
+        "description": "学校经历."
+      },
+      {
+        "school": "College",
+        "degree": "学习方向",
+        "graduated": "毕业时间",
+        "description": "学校经历."
+      }
+    ],
+    "work": [
+      {
+        "company": "成绩",
+        "title": "做了什么 ",
+        "years": "时间（段）",
+        "description": "经历."
+      }
+    ],
+    "skills": [
+      {
+        "name": "Git",
+        "level": "60%"
+      },
+      {
+        "name": "ReactJs",
+        "level": "50%"
+      },
+      {
+        "name": "CSS",
+        "level": "90%"
+      },
+      {
+        "name": "HTML5",
+        "level": "80%"
+      }
+    ]
+  },
+  "portfolio": {
+    "projects": [
+      {
+        "title": "Canadian Wanderlust",
+        "category": "My Travel Blog for my post-university travels",
+        "image": "canadian-wanderlust.jpg",
+        "url": "https://www.canadianwanderlust.com"
+      }
+    ]
+  },
+  "testimonials": {
+    "testimonials": [
+      {
+        "text": "你喜欢的一句话.",
+        "user": "作者"
+      }
+    ]
+  }
+}
