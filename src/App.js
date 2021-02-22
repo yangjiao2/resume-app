@@ -8,7 +8,7 @@ import About from "./Components/About";
 import Resume from "./Components/Resume";
 import Testimonials from "./Components/Testimonials";
 import Portfolio from "./Components/Portfolio";
-
+import resumeData from "./resumeData.json";
 class App extends Component {
   constructor(props) {
     super(props);
@@ -27,7 +27,11 @@ class App extends Component {
       dataType: "json",
       cache: false,
       success: function (data) {
-        this.setState({ resumeData: data });
+        if (data) {
+          this.setState({ resumeData: data });
+        } else {
+          this.setState({ resumeData: resumeData });
+        }
       }.bind(this),
       error: function (xhr, status, err) {
         console.log(err);
