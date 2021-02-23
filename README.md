@@ -1,5 +1,4 @@
-# React JS Resume Web App Template      
-![ReactJS Resume Website Template](resume-screenshot.jpg?raw=true "ReactJS Resume Website Template")
+# React JS Resume Web App      
 ### <a href="https://yangjiao2.github.io/resume-app/">LIVE DEMO</a> 
 
 ## Description
